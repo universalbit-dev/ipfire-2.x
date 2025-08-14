@@ -1,0 +1,29 @@
+name: Run make.sh ipfire2
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Make make.sh executable
+        run: chmod +x make.sh
+
+      - name: Install basic build dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      - name: Run make.sh
+        run: bash make.sh
+
+      # Uncomment and adjust if you have build artifacts:
+      # - name: Upload build artifacts
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: build-artifacts
+      #     path: path/to/artifacts/
