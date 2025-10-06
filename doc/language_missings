@@ -156,9 +156,26 @@
 < AES-256-GCM
 < CHACHA20-POLY1305
 < dns servers
+< fwhost invalid country code
+< ids all including informational
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
+< ids invalid mail address
+< ids no email recipients
+< ids no email sender
 < ids provider eol
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
+< ids send email on alert
 < indirect target selection
 < mdstat
+< offloaded
 < online
 < ovpn ciphers
 < ovpn crypto settings
@@ -202,12 +219,28 @@
 < endpoint port
 < extrahd because it it outside the allowed mount path
 < fwdfw syn flood protection
+< fwhost invalid country code
 < fwhost wg peers
 < g.dtm
 < g.lite
 < hostile networks total
+< ids all including informational
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
+< ids invalid mail address
+< ids no email recipients
+< ids no email sender
 < ids provider eol
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
 < ids rulesets
+< ids send email on alert
 < ids unsupported provider
 < import connection
 < indirect target selection
@@ -225,6 +258,7 @@
 < malformed private key
 < malformed public key
 < mdstat
+< offloaded
 < online
 < oops something went wrong
 < ovpn ciphers
@@ -538,6 +572,7 @@
 < fwhost cust location
 < fwhost cust locationgroup
 < fwhost cust locationlocation
+< fwhost invalid country code
 < fwhost newlocationgrp
 < fwhost wg peers
 < fw red
@@ -550,6 +585,7 @@
 < hostile networks total
 < ids add provider
 < ids adjust ruleset
+< ids all including informational
 < ids apply
 < ids apply ruleset changes
 < ids automatic rules update
@@ -558,29 +594,43 @@
 < ids could not add provider
 < ids customize ruleset
 < ids download new ruleset
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
 < ids enable
 < ids enable automatic updates
 < ids extract ruleset
 < ids finished
 < ids force ruleset update
 < ids hide
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
 < ids ignored hosts
+< ids invalid mail address
 < ids log hits
 < ids merge classifications
 < ids merge sid files
 < ids monitored interfaces
 < ids monitor traffic only
+< ids no email recipients
+< ids no email sender
 < ids no enabled ruleset provider
 < ids no network zone
 < ids provider
 < ids provider eol
 < ids provider settings
 < ids remove rule structures
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
 < ids reset provider
 < ids ruleset autoupdate in progress
 < ids ruleset is up to date
 < ids rulesets
 < ids ruleset settings
+< ids send email on alert
 < ids show
 < ids subscription code required
 < ids the choosen provider is already in use
@@ -691,6 +741,7 @@
 < not affected
 < not validating
 < Number of Countries for the pie chart
+< offloaded
 < okay
 < one hour
 < one month
@@ -1182,6 +1233,7 @@
 < fwhost cust location
 < fwhost cust locationgroup
 < fwhost cust locationlocation
+< fwhost invalid country code
 < fwhost newlocationgrp
 < fwhost wg peers
 < fw red
@@ -1193,6 +1245,7 @@
 < hostile networks total
 < ids add provider
 < ids adjust ruleset
+< ids all including informational
 < ids apply
 < ids apply ruleset changes
 < ids automatic rules update
@@ -1201,29 +1254,43 @@
 < ids could not add provider
 < ids customize ruleset
 < ids download new ruleset
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
 < ids enable
 < ids enable automatic updates
 < ids extract ruleset
 < ids finished
 < ids force ruleset update
 < ids hide
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
 < ids ignored hosts
+< ids invalid mail address
 < ids log hits
 < ids merge classifications
 < ids merge sid files
 < ids monitored interfaces
 < ids monitor traffic only
+< ids no email recipients
+< ids no email sender
 < ids no enabled ruleset provider
 < ids no network zone
 < ids provider
 < ids provider eol
 < ids provider settings
 < ids remove rule structures
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
 < ids reset provider
 < ids ruleset autoupdate in progress
 < ids ruleset is up to date
 < ids rulesets
 < ids ruleset settings
+< ids send email on alert
 < ids show
 < ids subscription code required
 < ids the choosen provider is already in use
@@ -1352,6 +1419,7 @@
 < not affected
 < not validating
 < Number of Countries for the pie chart
+< offloaded
 < okay
 < one hour
 < one month
@@ -2090,6 +2158,7 @@
 < fwhost hint
 < fwhost hosts
 < fwhost icmptype
+< fwhost invalid country code
 < fwhost ipadr
 < fwhost ip_mac
 < fwhost ipsec host
@@ -2138,6 +2207,7 @@
 < hostile networks total
 < ids add provider
 < ids adjust ruleset
+< ids all including informational
 < ids apply
 < ids apply ruleset changes
 < ids automatic rules update
@@ -2146,29 +2216,43 @@
 < ids could not add provider
 < ids customize ruleset
 < ids download new ruleset
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
 < ids enable
 < ids enable automatic updates
 < ids extract ruleset
 < ids finished
 < ids force ruleset update
 < ids hide
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
 < ids ignored hosts
+< ids invalid mail address
 < ids log hits
 < ids merge classifications
 < ids merge sid files
 < ids monitored interfaces
 < ids monitor traffic only
+< ids no email recipients
+< ids no email sender
 < ids no enabled ruleset provider
 < ids no network zone
 < ids provider
 < ids provider eol
 < ids provider settings
 < ids remove rule structures
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
 < ids reset provider
 < ids ruleset autoupdate in progress
 < ids ruleset is up to date
 < ids rulesets
 < ids ruleset settings
+< ids send email on alert
 < ids show
 < ids subscription code required
 < ids the choosen provider is already in use
@@ -2316,6 +2400,7 @@
 < notice
 < not validating
 < Number of Countries for the pie chart
+< offloaded
 < okay
 < one hour
 < one month
@@ -3202,6 +3287,7 @@
 < fwhost hint
 < fwhost hosts
 < fwhost icmptype
+< fwhost invalid country code
 < fwhost ipadr
 < fwhost ip_mac
 < fwhost ipsec host
@@ -3251,6 +3337,7 @@
 < hour-graph
 < ids add provider
 < ids adjust ruleset
+< ids all including informational
 < ids apply
 < ids apply ruleset changes
 < ids automatic rules update
@@ -3259,29 +3346,43 @@
 < ids could not add provider
 < ids customize ruleset
 < ids download new ruleset
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
 < ids enable
 < ids enable automatic updates
 < ids extract ruleset
 < ids finished
 < ids force ruleset update
 < ids hide
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
 < ids ignored hosts
+< ids invalid mail address
 < ids log hits
 < ids merge classifications
 < ids merge sid files
 < ids monitored interfaces
 < ids monitor traffic only
+< ids no email recipients
+< ids no email sender
 < ids no enabled ruleset provider
 < ids no network zone
 < ids provider
 < ids provider eol
 < ids provider settings
 < ids remove rule structures
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
 < ids reset provider
 < ids ruleset autoupdate in progress
 < ids ruleset is up to date
 < ids rulesets
 < ids ruleset settings
+< ids send email on alert
 < ids show
 < ids subscription code required
 < ids the choosen provider is already in use
@@ -3431,6 +3532,7 @@
 < notice
 < not validating
 < Number of Countries for the pie chart
+< offloaded
 < okay
 < one hour
 < one month
@@ -3949,6 +4051,7 @@
 < foreshadow
 < fwdfw all subnets
 < fwdfw syn flood protection
+< fwhost invalid country code
 < fwhost wg peers
 < fw red
 < generate ptr
@@ -3958,6 +4061,7 @@
 < hostile networks total
 < ids add provider
 < ids adjust ruleset
+< ids all including informational
 < ids apply
 < ids apply ruleset changes
 < ids automatic rules update
@@ -3966,29 +4070,43 @@
 < ids could not add provider
 < ids customize ruleset
 < ids download new ruleset
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
 < ids enable
 < ids enable automatic updates
 < ids extract ruleset
 < ids finished
 < ids force ruleset update
 < ids hide
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
 < ids ignored hosts
+< ids invalid mail address
 < ids log hits
 < ids merge classifications
 < ids merge sid files
 < ids monitored interfaces
 < ids monitor traffic only
+< ids no email recipients
+< ids no email sender
 < ids no enabled ruleset provider
 < ids no network zone
 < ids provider
 < ids provider eol
 < ids provider settings
 < ids remove rule structures
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
 < ids reset provider
 < ids ruleset autoupdate in progress
 < ids ruleset is up to date
 < ids rulesets
 < ids ruleset settings
+< ids send email on alert
 < ids show
 < ids subscription code required
 < ids the choosen provider is already in use
@@ -4073,6 +4191,7 @@
 < no entries
 < not affected
 < not validating
+< offloaded
 < okay
 < online
 < oops something went wrong
@@ -4287,9 +4406,26 @@
 < Captive wrong type
 < CHACHA20-POLY1305
 < dns servers
+< fwhost invalid country code
 < guaranteed bandwidth
+< ids all including informational
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
+< ids invalid mail address
+< ids no email recipients
+< ids no email sender
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
+< ids send email on alert
 < indirect target selection
 < max bandwidth
+< offloaded
 < online
 < ovpn ciphers
 < ovpn crypto settings
@@ -4334,9 +4470,26 @@
 < Captive wrong type
 < CHACHA20-POLY1305
 < dns servers
+< fwhost invalid country code
 < guaranteed bandwidth
+< ids all including informational
+< ids email alerts
+< ids email alert severity
+< ids email recipients
+< ids email sender
+< ids high and medium severity
+< ids high, medium and low severity
+< ids high severity only
+< ids invalid mail address
+< ids no email recipients
+< ids no email sender
+< ids reports daily
+< ids reports monthly
+< ids reports weekly
+< ids send email on alert
 < indirect target selection
 < max bandwidth
+< offloaded
 < online
 < ovpn ciphers
 < ovpn crypto settings
